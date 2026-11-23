@@ -1,0 +1,8 @@
+:root { --ink:#1a1a1a; --bg:#f6f4ef; --rule:#d9d3c7; --bronze:#7a4e24; }
+body { margin:0; background:var(--bg); color:var(--ink); font:18px/1.65 Georgia, "Times New Roman", serif; }
+main, footer { max-width:42rem; margin:0 auto; padding:2rem 1.25rem; }
+h1,h2,h3 { line-height:1.25; }
+a { color:var(--bronze); }
+table { border-collapse:collapse; width:100%; }
+td,th { border:1px solid var(--rule); padding:.4rem .6rem; text-align:left; vertical-align:top; }
+footer { border-top:1px solid var(--rule); font:14px/1.5 system-ui, sans-serif; color:#5a5a5a; }
