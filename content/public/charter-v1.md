@@ -1,4 +1,4 @@
-# The Nuremberg Prize — Charter v1 (Launch Edition)
+# The Nuremberg Censure — Charter v1 (Launch Edition)
 
 *For the 2027 cycle. Adopted by the board and the advisers on: ____________*
 
@@ -6,7 +6,7 @@ This is the short charter for launching with one founder, three advisers and no 
 
 ## 1. Purpose
 
-The Nuremberg Prize publicly names leaders responsible for grave crimes who have not been held to account. It stands for the principle of the Nuremberg trials of 1945–46: *Nemo supra legem*, no one is above the law.
+The Nuremberg Censure publicly names leaders responsible for grave crimes who have not been held to account. It stands for the principle of the Nuremberg trials of 1945–46: *Nemo supra legem*, no one is above the law.
 
 The prize is a public record, not a punishment. It calls for no harm to anyone. Its only demand is that each honoree answer to a lawful court.
 
@@ -14,7 +14,7 @@ The prize is a public record, not a punishment. It calls for no harm to anyone. 
 
 The 2027 prize is awarded in one category only, **Atrocity**: genocide, ethnic cleansing, crimes against humanity, war crimes, and the use of chemical, biological or nuclear weapons. The legal standards are the Rome Statute of the International Criminal Court and the Chemical and Biological Weapons Conventions.
 
-The award is titled *The Nuremberg Prize for Atrocity*. The five further categories in the full charter (Aggression, Repression, Ecocide, Plunder, Cultural Destruction) open later, each once an adviser with expertise in that field has joined.
+The award is titled *The Nuremberg Censure for Atrocity*. The five further categories in the full charter (Aggression, Repression, Ecocide, Plunder, Cultural Destruction) open later, each once an adviser with expertise in that field has joined.
 
 ## 3. Who can receive it
 

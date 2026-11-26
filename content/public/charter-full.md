@@ -1,4 +1,4 @@
-# The Nuremberg Prize — Charter (Full Version)
+# The Nuremberg Censure — Charter (Full Version)
 
 Long-term version · last revised 22 November 2026
 
@@ -6,13 +6,13 @@ Long-term version · last revised 22 November 2026
 
 *Statutes modeled section-for-section on the Nobel Peace Prize, inverted: a dishonor conferred on leaders responsible for grave crimes.*
 
-## At a glance: Nobel Peace Prize vs. Nuremberg Prize
+## At a glance: Nobel Peace Prize vs. Nuremberg Censure
 
 Every rule below copies a Nobel Peace Prize rule and inverts its purpose. Where a straight copy would not work for a dishonor, the change is marked.
 
-| Feature | Nobel Peace Prize | Nuremberg Prize (mirror) |
+| Feature | Nobel Peace Prize | Nuremberg Censure (mirror) |
 | --- | --- | --- |
-| Founding text | Alfred Nobel's will (1895) | Founding Declaration of the Nuremberg Prize Foundation |
+| Founding text | Alfred Nobel's will (1895) | Founding Declaration of the Nuremberg Censure Foundation |
 | Awarded for | The most or best work for peace | Grave crimes by leaders, in six categories |
 | Awarding body | Norwegian Nobel Committee, 5 members | Nuremberg Committee, 5 members |
 | Members appointed by | Norwegian Parliament (Storting) | Foundation board *(change: no parliament)* |
@@ -36,7 +36,7 @@ Sources: [Nobel Peace Prize nominations](https://www.nobelprize.org/peace/), [No
 
 ## Article 1 — Founding Declaration
 
-The Nuremberg Prize is awarded each year to the person or persons who did the most to commit, order or knowingly enable grave crimes in one of six categories: atrocity, aggression, repression, ecocide, plunder, or cultural destruction.
+The Nuremberg Censure is awarded each year to the person or persons who did the most to commit, order or knowingly enable grave crimes in one of six categories: atrocity, aggression, repression, ecocide, plunder, or cultural destruction.
 
 It does what the Nuremberg tribunal did in 1945–46: it says that no rank or office places anyone above the law. It is a public record, not a punishment. It calls for no harm to anyone. Its only demand is that each honoree answer to a lawful court.
 
@@ -53,7 +53,7 @@ A candidate qualifies in one or more of six categories. Each one rests on an exi
 | Plunder | Looting a nation's wealth on a grand scale while its people go without | UN Convention Against Corruption |
 | Cultural Destruction | Banning a language or faith, forced assimilation (including taking children from their families), destroying monuments, places of worship and archives | UN Declaration on the Rights of Indigenous Peoples, Article 8; 1954 Hague Convention; ICC *Al Mahdi* judgment (2016) |
 
-**Naming.** Each award is named after its category, for example *The Nuremberg Prize for Atrocity*. The document that comes with the medal is called *the Indictment*.
+**Naming.** Each award is named after its category, for example *The Nuremberg Censure for Atrocity*. The document that comes with the medal is called *the Indictment*.
 
 **Phased opening.** The Nobel started with five prizes and added Economics in 1968. Here, Atrocity opens first, in 2027. Each other category opens once an adviser with expertise in that field has joined.
 
@@ -86,7 +86,7 @@ A nomination does not mean the Committee endorses it. Committee members may add 
 ## Article 5 — The Nuremberg Committee
 
 - **Size and terms.** Five members, each serving a six-year term that can be renewed. This matches the Norwegian Nobel Committee.
-- **Appointment.** Members are appointed by the board of the Nuremberg Prize Foundation. *Change: the Nobel Committee is chosen by a national parliament. Here no more than one member may come from any single country, and at least four continents must be represented, so no single nation's politics controls the choice.*
+- **Appointment.** Members are appointed by the board of the Nuremberg Censure Foundation. *Change: the Nobel Committee is chosen by a national parliament. Here no more than one member may come from any single country, and at least four continents must be represented, so no single nation's politics controls the choice.*
 - **Qualifications.** Members should include at least one international criminal lawyer, one historian and one environmental or heritage specialist.
 - **Secretariat.** A director runs the Nuremberg Institute, which is the counterpart of the Norwegian Nobel Institute. A member of the Committee acts as its secretary. Neither the director nor the founder ever attends deliberations.
 - **Advisers.** Permanent advisers prepare a written evidence report on each shortlisted candidate. Outside experts may be asked for opinions.
@@ -134,7 +134,7 @@ Each award has three parts, matching the Nobel set of medal, diploma and prize-a
 
 **The medal**
 
-| Spec | Nobel Peace Prize medal | Nuremberg Prize medal |
+| Spec | Nobel Peace Prize medal | Nuremberg Censure medal |
 | --- | --- | --- |
 | Diameter | 66 mm | 66 mm |
 | Metal | 18-carat gold, about 196 g | Bronze, blackened (oxidized) finish |
