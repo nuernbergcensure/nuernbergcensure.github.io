@@ -1,0 +1,63 @@
+---
+layout: base.njk
+title: The Nürnberg Censure
+permalink: /
+categories:
+  - ["Atrocity", true]
+  - ["Aggression", false]
+  - ["Repression", false]
+  - ["Ecocide", false]
+  - ["Plunder", false]
+  - ["Cultural Destruction", false]
+---
+<section class="wrap hero">
+<p class="eyebrow">Nemo supra legem · No one is above the law</p>
+<h1>A public record for leaders who have escaped justice.</h1>
+<p class="lede">The Nürnberg Censure names leaders responsible for grave crimes who have not been held to account. Every award rests on formal findings by recognized bodies, the full evidence is published, and every honoree may respond.</p>
+<div class="buttons">
+<a class="btn btn-solid" href="{{ '/charter-v1/' | url }}">Read the charter</a>
+<a class="btn" href="{{ '/how-it-works/' | url }}">How it works</a>
+</div>
+</section>
+
+<section class="band" aria-label="First announcement">
+<div class="wrap">
+<p class="big">First announcement: 1 October 2027</p>
+<p class="small">The anniversary of the 1946 Nuremberg judgment. The first award is in the category of Atrocity.</p>
+</div>
+</section>
+
+<section class="wrap section">
+<h2>Three commitments</h2>
+<div class="commitments">
+<div>
+<h3>Evidence first</h3>
+<p>Every award must rest on at least one formal finding, such as an International Criminal Court arrest warrant, a UN commission of inquiry or a court judgment. The full dossier is published.</p>
+</div>
+<div>
+<h3>Fair process</h3>
+<p>Each honoree is notified before the announcement and has 30 days to respond. Their response is published in full and unedited, alongside the citation.</p>
+</div>
+<div>
+<h3>Independent</h3>
+<p>No money from governments, political parties or companies. Independent advisers choose the honoree; the founder never votes. The criteria apply to allies and adversaries alike.</p>
+</div>
+</div>
+</section>
+
+<section class="wrap section" id="categories" style="padding-bottom:64px">
+<h2 class="tight">Six categories</h2>
+<p class="sub muted">Each category rests on an existing legal standard. They open one at a time, as advisers with expertise in each field join.</p>
+<ul class="categories">
+{%- for c in categories %}
+<li><span class="name">{{ c[0] }}</span>{% if c[1] %}<span class="tag tag-open">Opens 2027</span>{% else %}<span class="tag">Opens later</span>{% endif %}</li>
+{%- endfor %}
+</ul>
+</section>
+
+<section class="wrap" style="padding-top:32px; padding-bottom:96px">
+<div class="callout">
+<h2>A public record, not a verdict</h2>
+<p>The Censure imposes no penalty and calls for no harm to anyone. Its only demand is that each honoree answer to a lawful court. The medal is held in escrow, on an empty chair in the dock, and handed over only if they do.</p>
+</div>
+</section>

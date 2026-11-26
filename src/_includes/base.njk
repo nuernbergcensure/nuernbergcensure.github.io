@@ -4,15 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>{{ title }}</title>
+<title>{% if page.url == "/" %}{{ title }}{% else %}{{ title }} · The Nürnberg Censure{% endif %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ '/style.css' | url }}">
 </head>
 <body>
-<main>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap">
+<a class="wordmark" href="{{ '/' | url }}">THE NÜRNBERG CENSURE</a>
+<nav class="site-nav" aria-label="Main">
+{%- set nav = [
+  ["About", "/"],
+  ["Charter", "/charter-v1/"],
+  ["How it works", "/how-it-works/"],
+  ["Categories", "/#categories"],
+  ["The medal", "/medal/"],
+  ["Contact", "#contact"]
+] %}
+{%- for item in nav %}
+<a href="{{ item[1] if item[1].startsWith('#') else (item[1] | url) }}"{% if item[1] == page.url and item[1] != "/" %} aria-current="page"{% endif %}>{{ item[0] }}</a>
+{%- endfor %}
+</nav>
+</div>
+</header>
+<main id="main">
 {{ content | safe }}
 </main>
-<footer>
-<p>The Nürnberg Censure is independent. It is not affiliated with the City of Nuremberg or with the Nobel Foundation.</p>
+<footer class="site-footer" id="contact">
+<div class="wrap">
+<div class="links">
+<a href="mailto:info@nuernbergcensure.org">info@nuernbergcensure.org</a>
+<a href="#legal">Legal notice</a>
+<a href="{{ '/charter-v1/' | url }}">Charter</a>
+</div>
+<p id="legal">The Nürnberg Censure is independent. It is not affiliated with the City of Nuremberg or with the Nobel Foundation.</p>
+</div>
 </footer>
 </body>
 </html>

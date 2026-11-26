@@ -1,0 +1,27 @@
+---
+layout: base.njk
+---
+{%- set body = content | docBody %}
+{%- set sections = content | docToc %}
+<div class="wrap page" style="gap:48px">
+<div class="intro">
+<p class="eyebrow">{{ eyebrow }}</p>
+<h1>{{ title }}</h1>
+{%- if intro %}<p class="muted">{{ intro | safe }}</p>{% endif %}
+</div>
+<div class="doc-body">
+{%- if sections.length > 1 %}
+<nav class="toc" aria-label="Sections">
+<p>Contents</p>
+<ol>
+{%- for s in sections %}
+<li><a href="#{{ s.id }}">{{ s.text }}</a></li>
+{%- endfor %}
+</ol>
+</nav>
+{%- endif %}
+<article class="prose">
+{{ body | safe }}
+</article>
+</div>
+</div>

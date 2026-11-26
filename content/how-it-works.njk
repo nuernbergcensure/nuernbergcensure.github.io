@@ -1,0 +1,53 @@
+---
+layout: base.njk
+title: How it works
+permalink: /how-it-works/
+steps:
+  - ["April – May", "The evidence gate", "Advisers compile candidates only from formal findings by recognized bodies: ICC arrest warrants and indictments, UN commissions of inquiry, and court judgments. A candidate without at least one such finding goes no further, however grave the acts."]
+  - ["May – June", "Scoring", "Each adviser scores every remaining candidate from 1 to 5 on four equally weighted factors: gravity, personal responsibility, impunity and recency. Advisers with any tie to a candidate step aside."]
+  - ["By 31 July", "Discussion and vote", "The scores open the discussion; they do not decide it. All advisers vote. Individual scores and votes stay sealed for 50 years; the published dossier says which factors decided the award."]
+  - ["By 31 August", "Notice and right of response", "The honoree receives written notice and the full dossier, and has 30 days to respond. If the response shows a factual error, the award can be corrected or withheld. Candidates who are not chosen are never contacted."]
+  - ["1 October", "Announcement", "The citation, the full evidence dossier and the honoree's unedited response are published together, on the anniversary of the 1946 Nuremberg judgment."]
+safeguards:
+  - ["Attributed wording", "Every claim is attributed to its source. A citation never declares anyone guilty."]
+  - ["Legal review", "A lawyer reviews each citation and dossier before it is announced."]
+  - ["Neutrality", "The same standard applies to allies and adversaries of every government."]
+  - ["No incitement", "Nothing in the Censure suggests violence. Any threat made in its name is condemned."]
+forms:
+  - ["/scoring-sheet/", "Adviser scoring sheet", "Blank form. Completed sheets are sealed."]
+  - ["/formats-dossier-indictment/", "Evidence dossier and Indictment formats", "With the wording rules every award follows."]
+---
+<div class="wrap page">
+<div class="intro">
+<p class="eyebrow">The process</p>
+<h1>How an honoree is chosen</h1>
+<p class="lede">Five steps, from evidence to announcement. Each one is set out in the charter, and the forms used are published below.</p>
+</div>
+
+<ol class="steps">
+{%- for s in steps %}
+<li>
+<div class="when"><span class="num" aria-hidden="true">0{{ loop.index }}</span><span class="date">{{ s[0] }}</span></div>
+<div class="what"><h2>{{ s[1] }}</h2><p>{{ s[2] }}</p></div>
+</li>
+{%- endfor %}
+</ol>
+
+<section class="stack">
+<h2>Safeguards</h2>
+<div class="cards">
+{%- for g in safeguards %}
+<div><h3>{{ g[0] }}</h3><p>{{ g[1] }}</p></div>
+{%- endfor %}
+</div>
+</section>
+
+<section class="stack" style="gap:20px">
+<h2>The forms we use</h2>
+<div class="doclist">
+{%- for f in forms %}
+<a href="{{ f[0] | url }}"><span class="t"><span class="t1">{{ f[1] }}</span><span class="t2">{{ f[2] }}</span></span><span class="go">Read →</span></a>
+{%- endfor %}
+</div>
+</section>
+</div>
