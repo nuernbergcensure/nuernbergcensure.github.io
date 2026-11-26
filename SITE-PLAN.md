@@ -1,4 +1,4 @@
-# The Nuremberg Prize — Website Plan (handoff to Claude Code)
+# The Nürnberg Censure — Website Plan (handoff to Claude Code)
 
 Read this file first. It holds every decision already made about the site. Content for the documents is in `public/` (goes on the site) and `private/` (private repo only, never on the public site). The look is set by the mockups in `design-mockups/`: match their colors, type and layout.
 
@@ -36,7 +36,7 @@ Each document has **one Markdown source**, rendered as a web page **and** genera
 
 | Page | URL | Content source | Notes |
 | --- | --- | --- | --- |
-| Home | `/` | New copy | What the prize is (2–3 sentences); the motto *Nemo supra legem*; "First announcement: 1 October 2027"; a one-line "This is a public record, not a verdict." Links to How it works and the Charter. |
+| Home | `/` | New copy | What the Censure is (2–3 sentences); the motto *Nemo supra legem*; "First announcement: 1 October 2027"; a one-line "This is a public record, not a verdict." Links to How it works and the Charter. |
 | About | `/about` | New copy, from charter Article 1 | Why "Nuremberg"; the principle; a short founder statement written plainly ("I'm Travis [Last name], a software engineer in Washington State…"); FAQ. |
 | Charter | `/charter` | `public/charter-v1.md` | The governing version. Shows the adoption date and a change log. PDF download. |
 | Full charter | `/charter/full` | `public/charter-full.md` | Labeled as the long-term version. PDF download. |
@@ -46,7 +46,7 @@ Each document has **one Markdown source**, rendered as a web page **and** genera
 | Contact | `/contact` | New copy | A single email address on the domain (for example info@). No form. |
 | Legal notice | `/legal` | New copy, from charter Article 10 | Not a verdict and calls for no harm; not affiliated with the City of Nuremberg or with the Nobel organizations; corrections policy (Article 7); copyright and photo credits. |
 
-**Footer on every page:** "The Nuremberg Prize is independent. It is not affiliated with the City of Nuremberg or with the Nobel Foundation." Plus links to Legal notice and Contact. Never use the City's coat of arms or logos, and never use "Nobel" in branding.
+**Footer on every page:** "The Nürnberg Censure is independent. It is not affiliated with the City of Nuremberg or with the Nobel Foundation." Plus links to Legal notice and Contact. Never use the City's coat of arms or logos, and never use "Nobel" in branding.
 
 ### Later pages
 

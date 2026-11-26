@@ -1,4 +1,4 @@
-# The Nuremberg Prize — Charter v1 (Launch Edition)
+# The Nürnberg Censure — Charter v1 (Launch Edition)
 
 *For the 2027 cycle. Adopted by the board and the advisers on: ____________*
 
@@ -6,22 +6,22 @@ This is the short charter for launching with one founder, three advisers and no 
 
 ## 1. Purpose
 
-The Nuremberg Prize publicly names leaders responsible for grave crimes who have not been held to account. It stands for the principle of the Nuremberg trials of 1945–46: *Nemo supra legem*, no one is above the law.
+The Nürnberg Censure publicly names leaders responsible for grave crimes who have not been held to account. It stands for the principle of the Nuremberg trials of 1945–46: *Nemo supra legem*, no one is above the law.
 
-The prize is a public record, not a punishment. It calls for no harm to anyone. Its only demand is that each honoree answer to a lawful court.
+The Censure is a public record, not a punishment. It calls for no harm to anyone. Its only demand is that each honoree answer to a lawful court.
 
 ## 2. Category for 2027: Atrocity
 
-The 2027 prize is awarded in one category only, **Atrocity**: genocide, ethnic cleansing, crimes against humanity, war crimes, and the use of chemical, biological or nuclear weapons. The legal standards are the Rome Statute of the International Criminal Court and the Chemical and Biological Weapons Conventions.
+The 2027 Censure is issued in one category only, **Atrocity**: genocide, ethnic cleansing, crimes against humanity, war crimes, and the use of chemical, biological or nuclear weapons. The legal standards are the Rome Statute of the International Criminal Court and the Chemical and Biological Weapons Conventions.
 
-The award is titled *The Nuremberg Prize for Atrocity*. The five further categories in the full charter (Aggression, Repression, Ecocide, Plunder, Cultural Destruction) open later, each once an adviser with expertise in that field has joined.
+The award is titled *The Nürnberg Censure for Atrocity*. The five further categories in the full charter (Aggression, Repression, Ecocide, Plunder, Cultural Destruction) open later, each once an adviser with expertise in that field has joined.
 
 ## 3. Who can receive it
 
 - A person who, at the time of the acts, had the authority to order or stop them: a head of state or government, a minister, a commander, or the leader of an armed group or ruling body. A ruling body acting together, such as a junta, may also be named.
-- The honoree must be alive when the prize is announced.
+- The honoree must be alive when the Censure is announced.
 - The honoree must not yet have faced a court for those acts. The acts may date from any time, but ongoing or recent acts (within five years) come first.
-- At most one honoree in 2027. If no candidate meets the standard, no prize is awarded.
+- At most one honoree in 2027. If no candidate meets the standard, no Censure is issued.
 
 ## 4. Who decides
 
@@ -55,7 +55,7 @@ The honoree receives written notice by 31 August 2027 and has 30 days to respond
 
 ## 9. Announcement and the empty chair
 
-The prize is announced on **1 October 2027**, the anniversary of the 1946 Nuremberg judgment. There is no physical ceremony in 2027. The medal is photographed on an empty chair in a dock for the announcement. It is held in escrow and handed over only if the honoree appears before a lawful court for the acts cited, when it becomes part of that court's record.
+The Censure is announced on **1 October 2027**, the anniversary of the 1946 Nuremberg judgment. There is no physical ceremony in 2027. The medal is photographed on an empty chair in a dock for the announcement. It is held in escrow and handed over only if the honoree appears before a lawful court for the acts cited, when it becomes part of that court's record.
 
 ## 10. Safeguards
 
@@ -63,8 +63,8 @@ The prize is announced on **1 October 2027**, the anniversary of the 1946 Nuremb
 2. **Wording.** The citation states documented findings and attributes each to its source. It never declares anyone guilty of a crime.
 3. **Legal review.** A lawyer, or a law-school media law clinic, reviews the citation and dossier before the announcement.
 4. **Neutrality.** The criteria apply equally to allies and adversaries of any government, including the founder's own.
-5. **No incitement.** No image, word or event suggests execution or violence. The Foundation condemns any threat made in the prize's name.
-6. **Name.** "Nobel" never appears in the prize's name, logo or slogans. The City of Nuremberg's Human Rights Office is contacted before launch.
+5. **No incitement.** No image, word or event suggests execution or violence. The Foundation condemns any threat made in the Censure's name.
+6. **Name.** "Nobel" never appears in the Censure's name, logo or slogans. The City of Nuremberg's Human Rights Office is contacted before launch.
 
 ## 11. Funding
 

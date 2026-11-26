@@ -1,4 +1,4 @@
-# The Nuremberg Prize: site
+# The Nürnberg Censure: site
 
 Public static site. Plan and decisions: [SITE-PLAN.md](SITE-PLAN.md).
 

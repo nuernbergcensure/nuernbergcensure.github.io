@@ -1,4 +1,4 @@
-# The Nuremberg Prize — Evidence Dossier and Indictment Formats
+# The Nürnberg Censure — Evidence Dossier and Indictment Formats
 
 The formats every award follows. Text in [square brackets] is filled in each year. Every template follows the Wording safeguard (Article 10): state documented findings, attribute each one to its source, and never declare anyone guilty unless a court has convicted them.
 
@@ -86,15 +86,15 @@ Facts that are contested, credible counterarguments, and any weaknesses in the e
 
 *The hand-lettered document that accompanies the medal. Keep the citation to one sentence.*
 
-> **THE NUREMBERG PRIZE FOR [ATROCITY]**
+> **THE NÜRNBERG CENSURE FOR [ATROCITY]**
 > **[2027]**
 >
-> The Nuremberg Prize Foundation, on the decision of its [advisers / Committee], enters into the public record that
+> The Nürnberg Censure Foundation, on the decision of its [advisers / Committee], enters into the public record that
 >
 > **[FULL NAME]**
 > [position held at the time of the acts]
 >
-> is named the [2027] recipient of the Nuremberg Prize for [Atrocity], on the following finding:
+> is named the [2027] recipient of the Nürnberg Censure for [Atrocity], on the following finding:
 >
 > *[One attributed sentence, e.g., "whom the [body] found, on [date], to bear responsibility for [acts] in [place] between [dates]."]*
 >
