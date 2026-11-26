@@ -1,9 +1,9 @@
 ---
 layout: base.njk
-title: The Nuremberg Censure
+title: The Nürnberg Censure
 permalink: /
 ---
-# The Nuremberg Censure
+# The Nürnberg Censure
 
 *Nemo supra legem.* First announcement: 1 October 2027. This is a public record, not a verdict.
 

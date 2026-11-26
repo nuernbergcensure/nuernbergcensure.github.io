@@ -1,4 +1,4 @@
-# The Nuremberg Censure — Adviser Scoring Sheet
+# The Nürnberg Censure — Adviser Scoring Sheet
 
 *Blank form, published so anyone can see how candidates are judged. Completed sheets are confidential and sealed with the deliberations for 50 years (Article 7).*
 
