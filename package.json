@@ -1,5 +1,5 @@
 {
-  "name": "nurembergprize-site",
+  "name": "nuernbergcensure-site",
   "private": true,
   "type": "module",
   "scripts": { "build": "eleventy", "start": "eleventy --serve" },

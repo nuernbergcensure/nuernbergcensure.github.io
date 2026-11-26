@@ -4,10 +4,10 @@ Read this file first. It holds every decision already made about the site. Conte
 
 ## Decisions already made
 
-- **Domain:** nurembergprize.org (check it's available; register with domain privacy on).
+- **Domain:** nuernbergcensure.org (check it's available; register with domain privacy on).
 - **Public site:** static, no tracking scripts, no comment sections, no contact forms.
 - **Private documents:** behind a login (see "Private area"), never in the public build.
-- **Hosting, for now:** GitHub Pages, under the GitHub organization `nurembergprize` (not a personal account), at `nurembergprize.github.io`. Later: the custom domain, with Cloudflare in front. **Never** self-hosted: a site naming heads of state can attract attacks, and self-hosting could expose the founder's home network.
+- **Hosting, for now:** GitHub Pages, under the GitHub organization `nuernbergcensure` (not a personal account), at `nuernbergcensure.github.io`. Later: the custom domain, with Cloudflare in front. **Never** self-hosted: a site naming heads of state can attract attacks, and self-hosting could expose the founder's home network.
 - **Two repositories:** `site` (**public**, required for free GitHub Pages) holds only `content/public/` and the site code. `private-docs` (**private**) holds `content/private/`. A private file must never be committed to the public repo; add a CI check that fails the build if one appears.
 - **Not indexed until launch:** a `noindex` meta tag and a `robots.txt` that disallows everything, until the founder says the site is ready.
 - **Tone:** sober, legal, archival. Not activist, not satirical.
@@ -62,7 +62,7 @@ Each document has **one Markdown source**, rendered as a web page **and** genera
 ## Private area
 
 - **What goes in:** everything in `private/`: the working-draft charter, notice and press templates, adviser outreach kit, lawyer questions, letter to the City, legal-home comparison, and the medal test files.
-- **How:** a **separate** static site (`private-site/`), deployed on its own subdomain (for example `private.nurembergprize.org`), protected by Cloudflare Access (Zero Trust) with sign-in by email one-time code. Allow only named email addresses (the founder, later the board). Check current Cloudflare Access free-tier limits.
+- **How:** a **separate** static site (`private-site/`), deployed on its own subdomain (for example `private.nuernbergcensure.org`), protected by Cloudflare Access (Zero Trust) with sign-in by email one-time code. Allow only named email addresses (the founder, later the board). Check current Cloudflare Access free-tier limits.
 - **Why separate:** if a single path rule on the public site is misconfigured, private files leak. A separate deployment means private files never exist in the public build at all.
 - **Never** put sealed deliberations, scores or candidate lists anywhere on either site. Those stay encrypted and offline (charter Article 12).
 
