@@ -1,4 +1,4 @@
-// Pages serves this repo at /site/ until the custom domain; set PREFIX=/ then.
+// The Pages workflow sets PREFIX from the repo's Pages base path; local builds use "/".
 const slug = (s) =>
   s.replace(/<[^>]+>/g, "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "")
     .replace(/&[a-z]+;/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");

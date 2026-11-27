@@ -7,8 +7,8 @@ Read this file first. It holds every decision already made about the site. Conte
 - **Domain:** nuernbergcensure.org (check it's available; register with domain privacy on).
 - **Public site:** static, no tracking scripts, no comment sections, no contact forms.
 - **Private documents:** behind a login (see "Private area"), never in the public build.
-- **Hosting, for now:** GitHub Pages, under the GitHub organization `nuernbergcensure` (not a personal account), at `nuernbergcensure.github.io`. Later: the custom domain, with Cloudflare in front. **Never** self-hosted: a site naming heads of state can attract attacks, and self-hosting could expose the founder's home network.
-- **Two repositories:** `site` (**public**, required for free GitHub Pages) holds only `content/public/` and the site code. `private-docs` (**private**) holds `content/private/`. A private file must never be committed to the public repo; add a CI check that fails the build if one appears.
+- **Hosting, for now:** GitHub Pages, under the GitHub organization `nuernbergcensure` (not a personal account), at `nuernbergcensure.github.io` (the `site` repo is renamed `nuernbergcensure.github.io` so the site is served at the root, not under `/site/`). Later: the custom domain, with Cloudflare in front. **Never** self-hosted: a site naming heads of state can attract attacks, and self-hosting could expose the founder's home network.
+- **Two repositories:** `nuernbergcensure.github.io`, formerly `site` (**public**, required for free GitHub Pages) holds only `content/public/` and the site code. `private-docs` (**private**) holds `content/private/`. A private file must never be committed to the public repo; add a CI check that fails the build if one appears.
 - **Not indexed until launch:** a `noindex` meta tag and a `robots.txt` that disallows everything, until the founder says the site is ready.
 - **Tone:** sober, legal, archival. Not activist, not satirical.
 - **Language:** English at launch; German later.

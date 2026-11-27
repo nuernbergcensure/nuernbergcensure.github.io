@@ -13,7 +13,10 @@ jobs:
         with: { node-version: 22, cache: npm }
       - run: npm ci
       - run: sh scripts/guard-private.sh
-      - run: PREFIX=/site/ npm run build
+      # Base path comes from GitHub Pages itself: "" for an <org>.github.io repo or a custom domain, "/site" otherwise.
+      - id: pages
+        uses: actions/configure-pages@v5
+      - run: PREFIX="${{ steps.pages.outputs.base_path }}/" npm run build
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist }
   deploy:
