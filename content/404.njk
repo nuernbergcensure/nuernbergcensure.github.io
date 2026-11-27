@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Page not found
+permalink: /404.html
+---
+<script>
+  // Old links from when the site lived under /site/ (before the repo rename): send them to the same page at the root.
+  (function () {
+    var p = location.pathname;
+    if (p === "/site" || p.indexOf("/site/") === 0) {
+      location.replace((p.slice(5) || "/") + location.search + location.hash);
+    }
+  })();
+</script>
+<div class="wrap page">
+<div class="intro">
+<p class="eyebrow">Error 404</p>
+<h1>Page not found</h1>
+<p class="lede">This page doesn't exist, or it has moved.</p>
+<div class="buttons">
+<a class="btn btn-solid" href="{{ '/' | url }}">Go to the home page</a>
+<a class="btn" href="{{ '/charter-v1/' | url }}">Read the charter</a>
+</div>
+</div>
+</div>
