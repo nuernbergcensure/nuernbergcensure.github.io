@@ -1,11 +1,18 @@
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
+
 // The Pages workflow sets PREFIX from the repo's Pages base path; local builds use "/".
 const slug = (s) =>
   s.replace(/<[^>]+>/g, "").toLowerCase().normalize("NFKD").replace(/[̀-ͯ]/g, "")
     .replace(/&[a-z]+;/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
+// Short content hash for cache-busting static files: style.css?v=<hash> changes whenever the file does.
+const fileHash = (path) => createHash("sha256").update(readFileSync(path)).digest("hex").slice(0, 10);
+
 const H2 = /<h2>([\s\S]*?)<\/h2>/g;
 
 export default function (eleventyConfig) {
+  eleventyConfig.addFilter("bust", (url, file) => `${url}?v=${fileHash(file)}`);
   eleventyConfig.addPassthroughCopy({ "robots.txt": "robots.txt", "src/style.css": "style.css", "src/img": "img" });
 
   // Rendered Markdown -> page body: drop the H1 (the layout shows the title),
