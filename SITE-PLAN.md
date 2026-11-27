@@ -42,7 +42,7 @@ Each document has **one Markdown source**, rendered as a web page **and** genera
 | Full charter | `/charter/full` | `public/charter-full.md` | Labeled as the long-term version. PDF download. |
 | How it works | `/how-it-works` | New copy, from charter v1 sections 5–7 and 10 | Evidence gate → scoring → discussion and vote → notice and right of response → announcement. Downloads: `public/scoring-sheet.md`, `public/formats-dossier-indictment.md`. |
 | Categories | `/categories` | Charter Article 2 | All six categories with their legal anchors. Atrocity marked "Opens 2027"; the others "Opens later." |
-| The medal | `/medal` | Charter Article 8 and charter v1 section 8 | Text description: front and back, motto, the empty chair, escrow. Photo credits: Truman Library 72-924; National Archives 238-NT-612. **No images** until the real medal exists. |
+| The medal | `/medal` | Charter Article 8 and charter v1 section 8 | Text description: front and back, motto, the empty chair, escrow. Photo credits: Truman Library 72-924; National Archives 238-NT-612. The front shows a bronze-toned relief of Ribbentrop's face, rendered from the 1946 dock photograph (`scripts/make-portrait.py`); replace it with a photo of the real medal once it exists. |
 | Contact | `/contact` | New copy | A single email address on the domain (for example info@). No form. |
 | Legal notice | `/legal` | New copy, from charter Article 10 | Not a verdict and calls for no harm; not affiliated with the City of Nuremberg or with the Nobel organizations; corrections policy (Article 7); copyright and photo credits. |
 

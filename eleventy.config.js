@@ -6,7 +6,7 @@ const slug = (s) =>
 const H2 = /<h2>([\s\S]*?)<\/h2>/g;
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "robots.txt": "robots.txt", "src/style.css": "style.css" });
+  eleventyConfig.addPassthroughCopy({ "robots.txt": "robots.txt", "src/style.css": "style.css", "src/img": "img" });
 
   // Rendered Markdown -> page body: drop the H1 (the layout shows the title),
   // give each H2 an id for the contents list, and let wide tables scroll.
